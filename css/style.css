@@ -1,0 +1,96 @@
+hr {
+    width: 60%;
+}
+
+.second-block__line hr {
+    width: 100%;
+}
+
+.second-block__line {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.login-wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.circle {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.false {
+    border: 2px solid red;
+}
+
+.true {
+    border: 2px solid green;
+}
+
+.tasklist-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-task__block {
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.add-task__block input {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.all-task__block {
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.all-task__block form {
+    margin-right: 20px;
+}
+
+.tasklist__second-block {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.task-description__block {
+    margin-right: 25px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.block-class {
+    pointer-events: none;
+    cursor: default;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: #0d6dfdc5;
+}
+
+.task-action__block {
+    display: flex;
+}
+
+.task-action__block form {
+    margin-right: 20px;
+}
